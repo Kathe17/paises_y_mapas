@@ -12,7 +12,7 @@ const Input = ({ handleSearch, setCountry }: InputProps) => {
     <form className="flex items-center w-full md:w-1/2 order-2 md:order-1">
       <input
         type="text"
-        placeholder="Search City"
+        placeholder="Buscar país"
         className="w-full bg-transparent border-b-2 placeholder-white outline-none text-white"
         onKeyDown={handleSearch}
         onChange={(e) => setCountry(e.target.value)}
